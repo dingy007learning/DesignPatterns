@@ -1,7 +1,7 @@
-package com.designpatterns.singleton;
+package com.designpatterns.creational.singleton;
 
-import com.designpatterns.singleton.billpugh.SingletonBP;
-import com.designpatterns.singleton.synch.SingletonSynch;
+import com.designpatterns.creational.singleton.billpugh.SingletonBP;
+import com.designpatterns.creational.singleton.synch.SingletonSynch;
 
 public class SingletonTest {
 
