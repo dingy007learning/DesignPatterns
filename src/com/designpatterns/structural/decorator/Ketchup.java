@@ -4,6 +4,7 @@ public class Ketchup extends ToppingDecorator {
 
 	public Ketchup(Pizza newPizza) {
 		super(newPizza);
+		System.out.println("Adding ketchup...");
 	}
 	public String getDesc() {
 		return tempPizza.getDesc() + ", Ketchup";
